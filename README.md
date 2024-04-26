@@ -1,7 +1,8 @@
 # Traccia 1
 
 - Utilizza i principi di OOP ed Ereditarietà per creare una struttura a classi come la seguente:
-```+-|Continent
+```
++-|Continent
 +-----------|Country
 +--------------------|Region
 +---------------------------|Province
@@ -10,7 +11,8 @@
 ```
 
 - Ogni classe avrà un **attributo public** del tipo:
-```$nameContinent: 
+```
+$nameContinent: 
 $nameCountry;
 $nameRegion;
 $nameProvince; 
@@ -20,7 +22,8 @@ $nameStreet;
 
 
 - La prima **classe genitore** avrà la seguente struttura:
-```class Continent
+```
+class Continent
 {
  public $nameContinent;
 
@@ -48,7 +51,8 @@ ATTENZIONE: utilizzate bene il costruttore per invocare i metodi.
 
 - Il risultato atteso sarà:
 
-```$magikarp = new Fish();
+```
+$magikarp = new Fish();
 //Nel terminale visualizzerete:
 Sono un animale Vertebrato
 Sono un animale a Sangue Freddo
@@ -57,7 +61,8 @@ Sono un pesce
 
 # Traccia 3
 - Dato il seguente codice di partenza:
-```class Car {
+```
+class Car {
   protected $targa;
   private $num_telaio;
 }
